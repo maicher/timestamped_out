@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['krzysztof.maicher@gmail.com']
 
   spec.summary       = 'A class for prepending timestamps to Ruby standard out and error.'
-  spec.homepage      = 'https://github.com/maicher/formatted_out'
+  spec.homepage      = 'https://github.com/maicher/timestamped_out'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
